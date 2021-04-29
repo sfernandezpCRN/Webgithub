@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>github</title>
+    <title>Mis Actividades</title>
     <link rel="stylesheet" href="estils.css">
     <meta lang="es-es">
   </head>
