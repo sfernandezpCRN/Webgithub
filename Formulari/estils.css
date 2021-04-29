@@ -1,0 +1,38 @@
+body {background-color: black;
+      background-image: url(img/estrellas.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+h1 {color: white;
+    text-align: center;}
+
+#Formulari {background-color: #C327FF;
+            width: 450px;
+            height: 370px;
+            margin-left: 415px;}
+
+.caja {width: 200px;
+       background-color: black;
+       margin-left:125px;
+       margin-top: 20px;}
+
+.caja, placeholder {font-family: fantasy;
+                    color: white;}
+
+::-webkit-input-placeholder {color: white;}
+
+.naja {width: 310px;
+       background-color: black;
+       margin-left: 70px;
+       margin-top: 20px;}
+
+.naja, placeholder {font-family: fantasy;
+                    color: white;}
+
+.taja {width: 100px;
+       background-color: #27C4FF;
+       margin-left: 175px;
+       margin-top: 20px;}
+
+.taja, placeholder {font-family: fantasy;
+                    color: black;}
