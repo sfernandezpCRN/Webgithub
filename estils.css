@@ -4,7 +4,7 @@ body {background-color: black;
 
 img {width: 1609px;
      height: 900px;
-     position: fixed;}
+     position: relative;}
 
 p {animation: none;}
 
