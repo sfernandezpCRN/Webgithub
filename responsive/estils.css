@@ -1,0 +1,49 @@
+body {background-color: cyan;}
+
+.cuadros {height: 100px;
+          width: 210px;
+          background-color: pink;
+          margin-left: 20px;
+          position: absolute;
+          }
+
+p {margin-top: 30px;
+   text-align: center;
+   font-family: 'Anton', sans-serif;
+   font-size: 25px;}
+
+h1 {font-size: 85px;
+    top: 40px;}
+
+#sema {width: 760px;
+       height: 500px;
+       margin-top: 20px;}
+
+#uno {background-color: lightgreen;
+      margin-top: 20px;}
+
+#dos {background-color: lightgreen;
+      margin-top: 140px;}
+
+#tres {background-color: lightgreen;
+      margin-top: 260px;}
+
+#cuatro {background-color: lightgreen;
+      margin-top: 380px;}
+
+#white {height: 460px;
+        width: 680px;
+        background-color: white;
+        margin-top: 40px;
+        margin-left: 20px;}
+
+#vm {height: 150px;
+     width: 920px;}
+
+#or {background-color: green;
+     width: 1800px;
+     height: 1800px;
+     margin-top:0px;
+     margin-left: 20px;
+     font-family: 'Anton', sans-serif;
+     font-size: 45px;}
