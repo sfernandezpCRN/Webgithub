@@ -1,0 +1,50 @@
+body {background-color: black;
+      margin:0;}
+
+div {height:185px; width:200px;
+     font-family: sans-serif;
+     font-size: 50px;
+     font-weight: bold;
+     color: red;
+     text-align: center;
+     line-height: 200px;
+     margin: 10px;
+     float: left;
+     background-image: url(img/Homer.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     -webkit-text-stroke: 3px black;}
+
+#uno {background-color:silver; }
+
+#dos {background-color:gold;  }
+
+#tres {background-color:green; }
+
+#cuatro {background-color:red; }
+
+#cinco {background-color:pink; }
+
+#seis {background-color:orange; }
+
+#siete {background-color:yellow; }
+
+#ocho {background-color:LawnGreen; }
+
+#nueve {background-color:skyblue; }
+
+#diez {background-color:purple; }
+
+#boton {background: none;
+        background-color:turquoise;
+        border-radius: 100px;
+        right: 50px;
+        bottom: 50px;
+        font-size: 45px;
+        position: fixed;}
+
+a:link {text-decoration: none; -webkit-text-stroke: 3px black;}
+
+a:visited {color: red; -webkit-text-stroke: 3px black;}
+
+a:active {color: red; -webkit-text-stroke: 3px black;}
