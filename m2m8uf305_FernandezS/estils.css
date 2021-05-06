@@ -1,0 +1,35 @@
+body {background-color: cyan;}
+
+#contenedor {background-color: white;
+             width: 1300px;
+             height: 1500px;
+             }
+#titulo {text-align: center;
+         font-size:20}
+
+#fotoa {float: left;
+        width: 350px;
+        height: 230px;
+        margin-left: 10px;}
+
+#fotob {float: left;
+        width: 220px;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 10px;}
+
+#textoa {float: left;
+         height: 230px;
+         width: 920px;
+         font-size: 13px;
+         margin-left: 10px;}
+
+#textob {float: left;
+         margin-top: 50px;
+         width: 1060px;
+         margin-left: 10px;
+         font-size: 13px;}
+
+#al1 {text-align: center;}
+
+#al2 {text-align: justify;}
