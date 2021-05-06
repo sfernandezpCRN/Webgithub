@@ -1,0 +1,198 @@
+body {
+  background-color: cyan;
+}
+
+#fachada {
+  width: 210px;
+  height: 210px;
+  background-color: #86BCF2;
+  position: absolute;
+  left: 400px;
+  top: 300px;
+}
+
+#tejado {
+  width: 250px;
+  height: 70px;
+  background: #DD5D34;
+  position: absolute;
+  left: 380px;
+  top: 230px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+#ventana1 {
+  width: 50px;
+  height: 50px;
+  background: #72DCF8;
+  position: absolute;
+  left: 425px;
+  top: 330px;
+  border: solid 2px black;
+}
+
+#ventana2 {
+  width: 50px;
+  height: 50px;
+  background: #72DCF8;
+  position: absolute;
+  left: 523px;
+  top: 330px;
+  border: solid 2px black;
+}
+
+#puerta {
+  width: 50px;
+  height: 70px;
+  background: brown;
+  position: absolute;
+  left: 475px;
+  top: 434px;
+  border: solid 2px black;
+}
+
+#chimenea {
+  width: 30px;
+  height: 60px;
+  background: brown;
+  position: absolute;
+  left: 550px;
+  top: 212px;
+}
+
+#sol {
+  width: 250px;
+  height: 250px;
+  background: yellow;
+  position: absolute;
+  left: 1000px;
+  top: 50px;
+  border-radius: 100%;
+}
+
+#base {
+  width: 45000px;
+  height: 520px;
+  background: #6FB58B;
+  position: fixed;
+  margin-top: 499px;
+  left: 0;
+}
+
+ #palo1 {
+   width: 14px;
+   height: 110px;
+   background: brown;
+   position: absolute;
+   left: 80px;
+   top: 397px;
+}
+
+#palo2 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 160px;
+  top: 397px;
+}
+
+#palo3 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 240px;
+  top: 397px;
+}
+
+#palo4 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 320px;
+  top: 397px;
+}
+
+#reja1 {
+  width: 400px;
+  height: 14px;
+  background: brown;
+  position: absolute;
+  top: 470px;
+  left: 0;
+}
+
+#reja2 {
+  width: 400px;
+  height: 14px;
+  background: brown;
+  position: absolute;
+  top: 430px;
+  left: 0;
+}
+
+#palo5 {
+  width: 14px;
+  height: 110px;
+  background: brown;
+  position: absolute;
+  left: 0px;
+  top: 397px;
+}
+
+#montana1 {
+  background-color: #337C68;
+  height: 600px;
+  width: 600px;
+  border-radius: 51% 49% 0% 100% / 100% 47% 53% 0%;
+  position: absolute;
+  left: 0;
+}
+
+#montana2 {
+  background-color: #389178;
+  height: 379px;
+  width: 533px;
+  border-radius: 39% 61% 0% 100% / 100% 61% 39% 0% ;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 140px;
+}
+
+
+.flor {
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  border: solid 2px pink;
+  position: absolute;
+  margin-left: 687px;
+  margin-top: 423px;
+  border-radius: 100% 0% 100% 0%;
+  animation: rotacion 3s infinite linear;
+}
+
+#Petalo1 {
+  border-radius: 100% 0% 100% 0%;
+}
+
+#Petalo2 {
+  border-radius: 0% 100% 0% 100%;
+}
+
+@keyframes rotacion {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.yema {
+  width: 25px;
+  height: 25px;
+  clip-path: circle(50% at 50% 50%);
+  background-color: #DE97FA;
+  position: absolute;
+  margin-left: 702px;
+  margin-top: 438px;
+}
