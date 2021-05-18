@@ -1,0 +1,95 @@
+body {
+  background-image: url(img/Pisa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  display:flex;
+  justify-content: flex-start;
+}
+
+#nombre {
+  float: left;
+  font-size: 45px;
+  font-family: Apple Chancery;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+
+.respmenu a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin-left:730px;
+  padding: 10px 20px;
+  border-bottom: 2px solid black;
+  max-width: 300px;
+  background: black;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin-right: 0px;
+  padding: 0px;
+  right: 0px;
+  top: 0px;
+  width: 55px;
+  height: 220px;
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+  font-size: 48px;
+  pointer-events: none;
+  background-color: black;
+  color: white;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+}
+
+.respmenu {
+  position: relative;
+  min-height: 220px;
+  margin: -20px;
+  background: white;
+}
+
+.respmenu nav {
+  display: none;
+  color: white;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+  display: none;
+}
+
+#u {
+  margin-top: 20px;
+}
+#d {
+  margin-top: 0px;
+}
+#t {
+  margin-top: 0px;
+}
+#c {
+  margin-top: 0px;
+}
