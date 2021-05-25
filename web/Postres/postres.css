@@ -1,0 +1,219 @@
+@media screen and (max-width: 424px) {
+
+}
+body {
+  background-image: url(../img/Pisa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFE4D4;
+}
+
+#logoM {
+  margin-top: 2%;
+  margin-left: 2%;
+  float: left;
+  display:flex;
+  justify-content: flex-start;
+}
+
+#nombre {
+  float: left;
+  font-size: 53px;
+  font-family: Apple Chancery;
+  margin-top: 8%;
+  margin-left: 2.5%;
+}
+
+li{
+  list-style: none;
+}
+
+.menu {
+  margin-top: 120%;
+}
+
+.mov {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  margin-left:74%;
+  padding: 1% 1%;
+  border-bottom: 1% solid black;
+  max-width: 30%;
+  background: black;
+  font-variant: small-caps;
+  text-shadow: 1% 1% black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin-right: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 5.8%;
+  height: 100%;
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+  font-size: 48px;
+  pointer-events: none;
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+}
+
+.respmenu {
+  position: relative;
+  min-height: 220px;
+  margin: -2%;
+  background: #FECBB6;
+}
+
+.respmenu nav {
+  display: none;
+  color: white;
+}
+
+.respmenu input:checked ~ nav {
+  display: block;
+}
+
+.respmenu input:checked ~ .fa-bars {
+  display: none;
+}
+
+.respmenu input:not(:checked) ~ .fa-times {
+  display: none;
+}
+
+.contenedorT {
+  background-color: #FFE4D4;
+  width: 83%;
+  height: 1000px;
+  margin-top: 10%;
+  margin-left: 9%;
+  font-family: Times;
+}
+
+.ho {
+  text-align: center;
+  font-size: 45px;
+}
+
+.receta {
+  font-size: 35px;
+  text-align: justify;
+  margin: 4%;
+}
+
+#logoO {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  display:flex;
+  justify-content: flex-start;
+  width: 0;
+}
+
+.ord {
+  list-style: none;
+  display: none;
+}
+
+.container{
+  margin-top: 5%;
+  margin-left: 6%;
+  background-color: #FFE4D4;
+  width: 83%;
+  padding: 3%;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.sl{
+  text-align: center;
+  margin: 5%;
+}
+
+.sl li{
+  display: inline-block;
+  text-align: center;
+}
+
+.sl li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+ .txt{
+   margin-top: 5%;
+   margin-left: 6%;
+   height: 50%;
+   width: 89%;
+   background-color: #FFE4D4;
+ }
+
+ .txt h1{
+   font-size: 32px;
+   text-align: center;
+ }
+
+ .txt p{
+   font-size: 22px;
+   text-align: center;
+ }
+
+ #ord3 {
+   display: none;
+ }

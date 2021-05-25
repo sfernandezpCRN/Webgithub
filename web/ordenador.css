@@ -1,0 +1,107 @@
+@media screen and (min-width: 1068px) {
+
+  body {
+    background-image: url(img/Coliseo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #logoO {
+    margin-top: 1.5%;
+    margin-left: 1.2%;
+    float: left;
+    display:flex;
+    justify-content: flex-start;
+    width: 6.2%;
+  }
+
+  #logoM {
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+    display:flex;
+    justify-content: flex-start;
+    width: 0;
+    height: 0;
+  }
+
+  #nombre {
+    float: left;
+    font-size: 200px;
+    font-family: Apple Chancery;
+    margin-top: 3%;
+    margin-left: 4%;
+  }
+
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    display: none;
+  }
+
+  .respmenu {
+    position: relative;
+    min-height: 600px;
+    margin: -1%;
+    background: #FECBB6;
+  }
+
+  .respmenu nav {
+    display: none;
+    color: white;
+  }
+
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  }
+
+  .contenedorT {
+    background-color: #FFE4D4;
+    width: 70%;
+    height: 2000px;
+    margin-top: 4%;
+    margin-left: 15%;
+    font-family: Times;
+  }
+
+  #ho {
+    justify-content: left;
+    font-size: 155px;
+  }
+
+  #QS {
+    font-size: 105px;
+    text-align: justify;
+    margin: 2%;
+
+  }
+
+.hover{
+  margin-right: 60%;
+}
+
+  .ord{
+    width: 7%;
+    font-size: 145px;
+    display: inline-flex;
+    margin-left: 14%;
+    margin-top: 4%;
+    text-decoration-style: none;
+  }
+
+  .hover:hover{
+    padding: 2%;
+    border-radius: 2%;
+    box-shadow: 0 0 20px black;
+  }
+
+  .ord2{
+    color: black;
+    text-decoration: none;
+    font-family: Times;
+  }
+
+
+}

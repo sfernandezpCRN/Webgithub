@@ -1,12 +1,16 @@
+@media screen and (max-width: 424px) {
+
+}
 body {
   background-image: url(img/Pisa.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #FFE4D4;
 }
 
-#logo {
-  margin-top: 25px;
-  margin-left: 20px;
+#logoM {
+  margin-top: 2%;
+  margin-left: 2%;
   float: left;
   display:flex;
   justify-content: flex-start;
@@ -14,23 +18,32 @@ body {
 
 #nombre {
   float: left;
-  font-size: 45px;
+  font-size: 53px;
   font-family: Apple Chancery;
-  margin-top: 75px;
-  margin-left: 30px;
+  margin-top: 8%;
+  margin-left: 2.5%;
 }
 
-.respmenu a {
+li{
+  list-style: none;
+}
+
+.menu {
+  margin-top: 120%;
+}
+
+.mov {
   color: inherit;
   text-decoration: none;
+  list-style: none;
   display: block;
-  margin-left:730px;
-  padding: 10px 20px;
-  border-bottom: 2px solid black;
-  max-width: 300px;
+  margin-left:74%;
+  padding: 1% 1%;
+  border-bottom: 1% solid black;
+  max-width: 30%;
   background: black;
   font-variant: small-caps;
-  text-shadow: 1px 1px black;
+  text-shadow: 1% 1% black;
   font-size: 35px;
   text-align: center;
 }
@@ -38,12 +51,12 @@ body {
 .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
   position: absolute;
   box-sizing: border-box;
-  margin-right: 0px;
-  padding: 0px;
-  right: 0px;
-  top: 0px;
-  width: 55px;
-  height: 220px;
+  margin-right: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+  width: 5.8%;
+  height: 100%;
 }
 
 .respmenu .fa-bars, .respmenu .fa-times {
@@ -51,6 +64,7 @@ body {
   pointer-events: none;
   background-color: black;
   color: white;
+  list-style: none;
 }
 
 .respmenu input[type="checkbox"] {
@@ -60,8 +74,8 @@ body {
 .respmenu {
   position: relative;
   min-height: 220px;
-  margin: -20px;
-  background: white;
+  margin: -2%;
+  background: #FECBB6;
 }
 
 .respmenu nav {
@@ -81,15 +95,39 @@ body {
   display: none;
 }
 
-#u {
-  margin-top: 20px;
+.contenedorT {
+  background-color: #FFE4D4;
+  width: 83%;
+  height: 1000px;
+  margin-top: 10%;
+  margin-left: 9%;
+  font-family: Times;
 }
-#d {
-  margin-top: 0px;
+
+#ho {
+  text-align: center;
+  font-size: 45px;
 }
-#t {
-  margin-top: 0px;
+
+#QS {
+  font-size: 35px;
+  text-align: justify;
+  margin: 4%;
 }
-#c {
-  margin-top: 0px;
+
+#logoO {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  display:flex;
+  justify-content: flex-start;
+  width: 0;
+}
+
+.ord {
+  list-style: none;
+  display: none;
+}
+
+
 }
