@@ -1,0 +1,106 @@
+body {background-color: black;
+      width: 969px;
+      height: 1733px;}
+
+img {width: 1609px;
+     height: 900px;
+     position: relative;}
+
+a {animation: none;}
+
+#p1 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p2 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p3 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p4 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p5 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p6 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p7 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p8 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p9 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 64px;}
+
+#p10 {font-size: 25px;
+     color: skyblue;
+     margin-top: 64px;
+     margin-left: 58px;}
+
+#contenedor {left:95px;
+             position: fixed;
+             width: 1269px;}
+
+.pelota {background-image: url(img/pelota2.png);
+         width: 153px;
+         height: 154px;
+         float: left;
+         position: relative;
+         animation: rotacion 3s infinite linear;}
+
+
+         @keyframes rotacion {
+           0% {transform: rotate(0deg);}
+           100% {transform: rotate(360deg);}
+         }
+
+#pelota1 {top: 12px;
+          margin-left:150px; }
+
+#pelota2 {top: 12px;
+          margin-left:20px; }
+
+#pelota3 {top: 12px;
+          margin-left:20px; }
+
+#pelota4 {top: 12px;
+          margin-left:100px; }
+
+#pelota5 {top: 12px;
+          margin-left:20px; }
+
+#pelota6 {top: 12px;
+          margin-left:20px; }
+
+#pelota7 {top: 12px;
+         margin-left:235px; }
+
+#pelota8 {top: 12px;
+          margin-left:20px; }
+
+#pelota9 {top: 12px;
+          margin-left:273px; }
+
+#pelota10 {top: 12px;
+          margin-left:20px; }
